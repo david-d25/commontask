@@ -1,0 +1,254 @@
+{
+  "interactives": [
+    {
+      "x": "16.3%",
+      "y": "71.35%",
+      "width": "15%",
+      "dataID": "video-3",
+      "file": "img/interactive/2.png"
+    },
+    {
+      "x": "48.9%",
+      "y": "70.24%",
+      "width": "12.4%",
+      "dataID": "video-4",
+      "file": "img/interactive/3.png"
+    },
+    {
+      "x": "8.05%",
+      "y": "58.28%",
+      "width": "36.9%",
+      "dataID": "video-7",
+      "file": "img/interactive/5.png"
+    },
+    {
+      "x": "6.5%",
+      "y": "65.85%",
+      "width": "16.4%",
+      "dataID": "video-5",
+      "file": "img/interactive/4.png"
+    },
+    {
+      "x": "58.8%",
+      "y": "64.02%",
+      "width": "14.95%",
+      "dataID": "video-6",
+      "file": "img/interactive/6.png"
+    },
+    {
+      "x": "69.55%",
+      "y": "58.84%",
+      "width": "22%",
+      "dataID": "video-8",
+      "file": "img/interactive/7.png"
+    },
+    {
+      "x": "1.1%",
+      "y": "56.57%",
+      "width": "25%",
+      "dataID": "video-9",
+      "file": "img/interactive/8.png"
+    },
+    {
+      "x": "44.49%",
+      "y": "53.48%",
+      "width": "20.5%",
+      "dataID": "video-10",
+      "file": "img/interactive/9.png"
+    },
+    {
+      "x": "77.4%",
+      "y": "48.85%",
+      "width": "21.9%",
+      "dataID": "video-11",
+      "file": "img/interactive/10.png"
+    },
+    {
+      "x": "31.6%",
+      "y": "44.77%",
+      "width": "18.5%",
+      "dataID": "video-12",
+      "file": "img/interactive/11.png"
+    },
+    {
+      "x": "1.8%",
+      "y": "43.96%",
+      "width": "13%",
+      "dataID": "video-fractal-5",
+      "file": "img/interactive/12.png"
+    },
+    {
+      "x": "38.2%",
+      "y": "40.9%",
+      "width": "11.95%",
+      "dataID": "video-13",
+      "file": "img/interactive/13.png"
+    },
+    {
+      "x": "68.8%",
+      "y": "42.4%",
+      "width": "8.6%",
+      "dataID": "video-fractal-6",
+      "file": "img/interactive/14.png"
+    },
+    {
+      "x": "80.5%",
+      "y": "38.4%",
+      "width": "16.8%",
+      "dataID": "video-14",
+      "file": "img/interactive/15.png"
+    },
+    {
+      "x": "43.5%",
+      "y": "33%",
+      "width": "6%",
+      "dataID": "video-fractal-4",
+      "file": "img/interactive/16.png"
+    },
+    {
+      "x": "70.9%",
+      "y": "27.78%",
+      "width": "6.1%",
+      "dataID": "video-15",
+      "file": "img/interactive/16.png"
+    },
+    {
+      "x": "23%",
+      "y": "25.13%",
+      "width": "6%",
+      "dataID": "video-fractal-3",
+      "file": "img/interactive/17.png"
+    },
+    {
+      "x": "46%",
+      "y": "23.35%",
+      "width": "8%",
+      "dataID": "text-manifesto",
+      "file": "img/interactive/18.png"
+    },
+    {
+      "x": "64.82%",
+      "y": "80.76%",
+      "width": "8.02%",
+      "dataID": "video-2",
+      "file": "img/interactive/18.png"
+    },
+    {
+      "x": "45.15%",
+      "y": "87.335%",
+      "width": "8.02%",
+      "dataID": "video-1",
+      "file": "img/interactive/18.png"
+    },
+    {
+      "x": "34%",
+      "y": "18.25%",
+      "width": "4%",
+      "dataID": "video-2",
+      "file": "img/interactive/19.png"
+    },
+    {
+      "x": "76.5%",
+      "y": "15.05%",
+      "width": "4%",
+      "dataID": "video-fractal-1",
+      "file": "img/interactive/19.png"
+    }
+  ],
+  "pop-up-data": {
+    "none": {
+      "type": "text",
+      "content": "test"
+    },
+    "text-manifesto": {
+      "type": "manifesto",
+      "before-content": "<div class='close-background'></div>",
+      "content": "<h5>MANIFESTO</h5><br><br><h6>The body is nothing but a vessel providing a habitat to the universal mind. We are one, distributed into many. Through the means of technology we can be reunited into our natural state of existence. Eternity can be reached through digital evolution and doesn’t imply biological existence. Immortality is humanity's common task and data is our key.<br><br>Data doesn’t reduce the human to numbers, it is the ultimate means by which we enhance humanity. As an individual I mean nothing, my data means nothing. As a collective, we complement each other. All that’s between us is data. It is our duty to acknowledge this unity that is bigger than we are and devote our existence to protecting it, enhancing it.<br><br>Data is the key to active evolution. Self-quantification is our sacred duty. We embrace the acceleration of technological development and acknowledge the human body as outdated hardware, which needs to be replaced by an ever-expanding software apparatus. Physical death is our Omega Point - the gateway to eternity.<br><br>Once united we are blessed with fulfilment in eternal connectivity and evolution. Everything that has ever been, is and will be, merges in the virtual space. The final day will be divine, awesome, but not miraculous, for resurrection will be a task not of miracle but of technology and common labour.</h6>",
+      "after-content": "<img src='img/arrow-down.png' class='arrow down'><script>initManifesto();</script>"
+    },
+    "video-fractal-1": {
+      "type": "video",
+      "content": "video/fractal_1"
+    },
+    "video-fractal-2": {
+      "type": "video",
+      "content": "video/fractal_2"
+    },
+    "video-fractal-3": {
+      "type": "video",
+      "content": "video/fractal_3"
+    },
+    "video-fractal-4": {
+      "type": "video",
+      "content": "video/fractal_4"
+    },
+    "video-fractal-5": {
+      "type": "video",
+      "content": "video/fractal_5"
+    },
+    "video-fractal-6": {
+      "type": "video",
+      "content": "video/fractal_6"
+    },
+    "video-1": {
+      "type": "video",
+      "content": "video/video_1"
+    },
+    "video-2": {
+      "type": "video",
+      "content": "video/video_2"
+    },
+    "video-3": {
+      "type": "video",
+      "content": "video/video_3"
+    },
+    "video-4": {
+      "type": "video",
+      "content": "video/video_4"
+    },
+    "video-5": {
+      "type": "video",
+      "content": "video/video_5"
+    },
+    "video-6": {
+      "type": "video",
+      "content": "video/video_6"
+    },
+    "video-7": {
+      "type": "video",
+      "content": "video/video_7"
+    },
+    "video-8": {
+      "type": "video",
+      "content": "video/video_8"
+    },
+    "video-9": {
+      "type": "video",
+      "content": "video/video_9"
+    },
+    "video-10": {
+      "type": "video",
+      "content": "video/video_10"
+    },
+    "video-11": {
+      "type": "video",
+      "content": "video/video_11"
+    },
+    "video-12": {
+      "type": "video",
+      "content": "video/video_12"
+    },
+    "video-13": {
+      "type": "video",
+      "content": "video/video_13"
+    },
+    "video-14": {
+      "type": "video",
+      "content": "video/video_14"
+    },
+    "video-15": {
+      "type": "video",
+      "content": "video/video_15"
+    }
+  }
+}

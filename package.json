@@ -1,0 +1,24 @@
+{
+  "name": "web-strelka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "*",
+    "gulp-imagemin": "*",
+    "gulp-rigger": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "^4.3.11",
+    "gulp": "3.9.1",
+    "imagemin-pngquant": "*",
+    "rimraf": "*"
+  }
+}

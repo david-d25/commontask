@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Common Task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/png" href="img/icon.png">
+  </head>
+  <body>
+    <div id="preloader">
+      <img src="img/loading.gif">
+    </div>
+    <img id="diamond" src="img/rotating-diamond.gif">
+    <div id="main-content">
+      <img class="background" src="./img/background.jpg">
+      <div class="gifs-container"></div>
+      <div class="interactives-container"></div>
+    </div>
+    <div id="about">
+      <div class="content">
+        <p align="center">About Common Task</p>
+        <br>
+        <p align="justify">
+          Neocosmism is the leading ideological framework within an alternative Russia, emerging just before Perestroika (1984) and projected into a speculative future (approx. 2050). The system is inspired by Russian Cosmism’s founding father Nikolai Fedorov and his common task of achieving biological immortality for humankind.
+        </p>
+        <br>
+        <p align="justify">
+          Neocosmists strive to overcome the human, bodily condition and eventually become post-human, that is to say virtual. They aim so by performing an extensive data gathering and daily backups in hope that one day their consciousnesses will be simulated and networked within a timeless, post-body society.
+        </p>
+        <br>
+        <p align="justify">
+          The aim of Common Task is not only to speculate about a possible alternative system that draws on a relationship between technology and religion, but to illustrate that what we perceive to be reality is just a matter of perspective and interpretation.
+        </p>
+        <br>
+        <p align="justify">
+          On this homepage you can find a range of elements the Neocosmist ideology would have shaped differently, including architecture, advertisement, rituals and symbols. We invite you to browse the interactive elements and watch fragments of a short movie, both developed at “<a href="http://thenewnormal.strelka.com/">The New Normal</a>” educational program of Strelka Institute for Media, Architecture and Design in Moscow.
+        </p>
+        <br><br>
+        <p style="line-height: 2em" align="left">The team behind Common Task:</p>
+        <p style="float: left;">
+          <a href="mailto:nazmeevaalina@gmail.com">Alina Nazmeeva</a>, Architect<br>
+          <a href="mailto:j.prachasartta@gmail.com">Jariyaporn Prachasartta</a>, Architect<br>
+          <a href="mailto:michaela.buesse@gmail.com">Konstantin Mitrokhov</a>, Media Artist<br>
+          <a href="mailto:info@mitrokhov.com">Michaela Büsse</a>, Cultural Researcher
+        </p>
+        <p style="float: right; max-width: 40%" align="right">
+          For further inquiries regarding the full-length movie, please contact Konstantin Mitrokhov or Michaela Büsse.
+        </p>
+      </div>
+      <img id="home-button" src="img/home-button.png">
+    </div>
+    <img src="img/arrow-up.png" class="arrow up">
+  </body>
+</html>
+
+<script src="js/index.js"></script>
+
+<script id="window-template" type="text/x-handlebars-template">
+  <div class='interactive-window-container'>
+    <div class='interactive-window {{type}}'>
+      <div class="wrapper">
+        {{{before-content}}}
+        <div class="content">
+          {{{content}}}
+        </div>
+      </div>
+      {{{after-content}}}
+      <img class="close-button" src="img/close-button.png">
+    </div>
+    <div class='interactive-window-bg'></div>
+  </div>
+</script>
+
+<script id="video-template" type="text/x-handlebars-template">
+  <div class='interactive-window-container'>
+    <div class='interactive-window {{type}}'>
+      <video autoplay controls loop>
+        <source src="{{content}}.mp4">
+        <source src="{{content}}.webm">
+        <source src="{{content}}.mov">
+      </video>
+      <img class="close-button" src="img/close-button.png">
+    </div>
+    <div class='interactive-window-bg'></div>
+  </div>
+</script>
+
+<script id="gif-template" type="text/x-handlebars-template">
+  <img class="gif {{type}}" src="{{file}}" style="left: {{x}}; top: {{y}}; width: {{width}};">
+</script>
+
+<script id="interactive-template" type="text/x-handlebars-template">
+  <img class="interactive" dataID="{{dataID}}" src="{{file}}" style="left: {{x}}; top: {{y}}; width: {{width}};">
+</script>
